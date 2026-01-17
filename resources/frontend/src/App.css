@@ -1,0 +1,25 @@
+@layer theme, base, utilities;
+
+/* Tailwind CSS imports with 'tw' prefix and add dark mode support */
+@import "tailwindcss/theme.css" layer(theme) prefix(tw);
+@import "tailwindcss/preflight.css" layer(base) prefix(tw) important;
+@import "tailwindcss/utilities.css" layer(utilities) prefix(tw);
+
+/* You can add your custom styles here */
+.message-content p:last-child {
+  margin-bottom: 0;
+}
+
+.message-content h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.message-content h2, .message-content h3  {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+}
