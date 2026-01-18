@@ -1,5 +1,10 @@
-const BEARER_API_TOKEN = 'your_api_bearer_token_here';
-const CHAT_WINDOW_TITLE = 'Assistente AI';
-const SHOW_CONTACT_FORM = true;
+/**
+ * Configuration constants
+ * @module helpers/config
+ *
+ * This module exports configuration constants used across the application.
+ * Currently, it defines the base API URL.
+ */
+const API_URL = "https://chat.hbr.pt/api";
 
-export { BEARER_API_TOKEN, CHAT_WINDOW_TITLE, SHOW_CONTACT_FORM };
+export { API_URL };

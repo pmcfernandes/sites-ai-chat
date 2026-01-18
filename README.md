@@ -24,6 +24,12 @@ This project is a web-based chat application that allows users to communicate in
 3. Set up environment variables:
    Create a `.env` file in the root directory and add the following:
    ```env
+    CHAT_TITLE="Laravel Chat"
+    CHAT_WELCOME_MESSAGE="Hello! How can I assist you today?"
+    CHAT_SHOW_CONTACT_FORM=true
+    CHAT_SHOW_MEETING_FORM=true
+    MEETIING_MAIL_TO_ADDRESS="your-email@example.com"
+   
     API_BEARER_TOKEN="your_api_bearer_token_here"
 
     ANTHROPIC_API_KEY="your_anthropic_api_key_here"
